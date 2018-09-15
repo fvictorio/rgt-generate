@@ -1,0 +1,45 @@
+{
+  "name": "rgt-generate",
+  "description": "Generate a random dataset for semi-supervised learning",
+  "version": "0.0.0",
+  "author": "Franco Victorio @fvictorio",
+  "bin": {
+    "rgt-generate": "./bin/run"
+  },
+  "bugs": "https://github.com/fvictorio/rgt-generate/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.1",
+    "@oclif/config": "^1.7.6",
+    "@oclif/plugin-help": "^2.1.2",
+    "chance": "^1.0.16",
+    "csv": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-oclif": "^3.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/fvictorio/rgt-generate",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "rgt-generate"
+  },
+  "repository": "fvictorio/rgt-generate",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "echo NO TESTS"
+  }
+}

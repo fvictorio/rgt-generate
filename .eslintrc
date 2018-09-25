@@ -1,3 +1,6 @@
 {
-  "extends": ["oclif", "plugin:prettier/recommended"]
+  "extends": ["oclif", "plugin:prettier/recommended"],
+  "rules": {
+    "unicorn/filename-case": "off"
+  }
 }
